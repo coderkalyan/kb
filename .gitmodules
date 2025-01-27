@@ -1,3 +1,6 @@
 [submodule "standard-libs"]
 	path = standard-libs
 	url = git@gitlab.com:amadoruavs/electrical/standard-libs
+[submodule "UDB-S"]
+	path = UDB-S
+	url = https://github.com/Unified-Daughterboard/UDB-S

@@ -1,0 +1,1333 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.12
+[kbplacer_plugin_action.py:66]: Python version: '3.12.7 (main, Oct  1 2024, 11:15:50) [GCC 14.2.1 20240910]'
+[kbplacer_plugin_action.py:67]: KiCad version: 8.0.6 with 4.2.2 gtk3 (phoenix) wxWidgets 3.2.6
+[kbplacer_dialog.py:585]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "/home/kalyan/Documents/electrical/kb/layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 5.0, "y": 5.0, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:361]: Set key 1U distance: 19050000/19050000
+[key_placer.py:116]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+[key_placer.py:123]: Switches by nets: {}
+[key_placer.py:127]: Diodes by switch: {'SW28': ['D28'], 'SW1': ['D1'], 'SW68': ['D68'], 'SW7': ['D7'], 'SW55': ['D55'], 'SW49': ['D49'], 'SW56': ['D56'], 'SW43': ['D43'], 'SW73': ['D73'], 'SW5': ['D5'], 'SW24': ['D24'], 'SW34': ['D34'], 'SW37': ['D37'], 'SW30': ['D30'], 'SW39': ['D39'], 'SW33': ['D33'], 'SW22': ['D22'], 'SW58': ['D58'], 'SW38': ['D38'], 'SW32': ['D32'], 'SW18': ['D18'], 'SW10': ['D10'], 'SW40': ['D40'], 'SW65': ['D65'], 'SW69': ['D69'], 'SW14': ['D14'], 'SW46': ['D46'], 'SW70': ['D70'], 'SW64': ['D64'], 'SW41': ['D41'], 'SW26': ['D26'], 'SW71': ['D71'], 'SW3': ['D3'], 'SW31': ['D31'], 'SW67': ['D67'], 'SW23': ['D23'], 'SW9': ['D9'], 'SW35': ['D35'], 'SW60': ['D60'], 'SW53': ['D53'], 'SW21': ['D21'], 'SW15': ['D15'], 'SW45': ['D45'], 'SW19': ['D19'], 'SW54': ['D54'], 'SW62': ['D62'], 'SW29': ['D29'], 'SW48': ['D48'], 'SW50': ['D50'], 'SW59': ['D59'], 'SW4': ['D4'], 'SW8': ['D8'], 'SW44': ['D44'], 'SW52': ['D52'], 'SW12': ['D12'], 'SW6': ['D6'], 'SW66': ['D66'], 'SW13': ['D13'], 'SW42': ['D42'], 'SW27': ['D27'], 'SW61': ['D61'], 'SW63': ['D63'], 'SW57': ['D57'], 'SW72': ['D72'], 'SW17': ['D17'], 'SW51': ['D51'], 'SW47': ['D47'], 'SW11': ['D11'], 'SW25': ['D25'], 'SW2': ['D2'], 'SW20': ['D20'], 'SW16': ['D16'], 'SW36': ['D36']}
+[kle_serial.py:897]: User layout: [['Home\nDel', {'x': 0.5}, '~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'c': '#eebbcb', 'w': 2}, 'Bksp', {'x': 0.5, 'c': '#cccccc', 'a': 7}], [{'a': 4}, 'F1\nCaps', {'x': 0.5, 'w': 1.5}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\', {'x': 0.5}, 'Insert\nPrint'], ['F2\nSleep', {'x': 0.5, 'c': '#bbbcde', 'w': 1.75}, 'Esc', {'c': '#cccccc'}, 'A', 'S', 'D', {'n': True}, 'F', 'G', 'H', {'n': True}, 'J', 'K', 'L', ':\n;', '"\n\'', {'w': 2.25}, 'Enter', {'x': 0.5}, 'Pg Up'], ['F3\nEnd', {'x': 0.5, 'w': 2.25}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'w': 1.75}, 'Shift', {'x': 1.5}, 'Pg Dn'], [{'y': -0.75, 'x': 15.75}, '↑'], [{'y': -0.25}, 'F4', {'x': 0.5, 'c': '#fff1cf', 'w': 1.25}, 'Ctrl', {'w': 1.25}, 'Fn', {'w': 1.25}, 'Alt', {'w': 2.25}, 'Space (Tap)\nMod (Hold)', {'w': 1.75}, 'Layer', {'w': 2.25}, 'Space (Tap)\nLayer (Hold)', {'w': 1.5}, 'Alt', {'w': 1.5}, 'Ctrl'], [{'y': -0.75, 'x': 14.75, 'c': '#cccccc'}, '←', '↓', '→']]
+[key_placer.py:661]: Layout offset: (28575000, 28575000)
+[board_modifier.py:85]: Setting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting SW2 footprint position: (66675000, 38100000)
+[board_modifier.py:85]: Setting SW3 footprint position: (85725000, 38100000)
+[board_modifier.py:85]: Setting SW4 footprint position: (104775000, 38100000)
+[board_modifier.py:85]: Setting SW5 footprint position: (123825000, 38100000)
+[board_modifier.py:85]: Setting SW6 footprint position: (142875000, 38100000)
+[board_modifier.py:85]: Setting SW7 footprint position: (161925000, 38100000)
+[board_modifier.py:85]: Setting SW8 footprint position: (180975000, 38100000)
+[board_modifier.py:85]: Setting SW9 footprint position: (200025000, 38100000)
+[board_modifier.py:85]: Setting SW10 footprint position: (219075000, 38100000)
+[board_modifier.py:85]: Setting SW11 footprint position: (238125000, 38100000)
+[board_modifier.py:85]: Setting SW12 footprint position: (257175000, 38100000)
+[board_modifier.py:85]: Setting SW13 footprint position: (276225000, 38100000)
+[board_modifier.py:85]: Setting SW14 footprint position: (295275000, 38100000)
+[board_modifier.py:85]: Setting SW15 footprint position: (323850000, 38100000)
+[board_modifier.py:85]: Setting SW16 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting SW17 footprint position: (71437500, 57150000)
+[board_modifier.py:85]: Setting SW18 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting SW19 footprint position: (114300000, 57150000)
+[board_modifier.py:85]: Setting SW20 footprint position: (133350000, 57150000)
+[board_modifier.py:85]: Setting SW21 footprint position: (152400000, 57150000)
+[board_modifier.py:85]: Setting SW22 footprint position: (171450000, 57150000)
+[board_modifier.py:85]: Setting SW23 footprint position: (190500000, 57150000)
+[board_modifier.py:85]: Setting SW24 footprint position: (209550000, 57150000)
+[board_modifier.py:85]: Setting SW25 footprint position: (228600000, 57150000)
+[board_modifier.py:85]: Setting SW26 footprint position: (247650000, 57150000)
+[board_modifier.py:85]: Setting SW27 footprint position: (266700000, 57150000)
+[board_modifier.py:85]: Setting SW28 footprint position: (285750000, 57150000)
+[board_modifier.py:85]: Setting SW29 footprint position: (304800000, 57150000)
+[board_modifier.py:85]: Setting SW30 footprint position: (328612500, 57150000)
+[board_modifier.py:85]: Setting SW31 footprint position: (361950000, 57150000)
+[board_modifier.py:85]: Setting SW32 footprint position: (38100000, 76200000)
+[board_modifier.py:85]: Setting SW33 footprint position: (73818750, 76200000)
+[board_modifier.py:85]: Setting SW34 footprint position: (100012500, 76200000)
+[board_modifier.py:85]: Setting SW35 footprint position: (119062500, 76200000)
+[board_modifier.py:85]: Setting SW36 footprint position: (138112500, 76200000)
+[board_modifier.py:85]: Setting SW37 footprint position: (157162500, 76200000)
+[board_modifier.py:85]: Setting SW38 footprint position: (176212500, 76200000)
+[board_modifier.py:85]: Setting SW39 footprint position: (195262500, 76200000)
+[board_modifier.py:85]: Setting SW40 footprint position: (214312500, 76200000)
+[board_modifier.py:85]: Setting SW41 footprint position: (233362500, 76200000)
+[board_modifier.py:85]: Setting SW42 footprint position: (252412500, 76200000)
+[board_modifier.py:85]: Setting SW43 footprint position: (271462500, 76200000)
+[board_modifier.py:85]: Setting SW44 footprint position: (290512500, 76200000)
+[board_modifier.py:85]: Setting SW45 footprint position: (321468750, 76200000)
+[board_modifier.py:85]: Setting SW46 footprint position: (361950000, 76200000)
+[board_modifier.py:85]: Setting SW47 footprint position: (38100000, 95250000)
+[board_modifier.py:85]: Setting SW48 footprint position: (78581250, 95250000)
+[board_modifier.py:85]: Setting SW49 footprint position: (109537500, 95250000)
+[board_modifier.py:85]: Setting SW50 footprint position: (128587500, 95250000)
+[board_modifier.py:85]: Setting SW51 footprint position: (147637500, 95250000)
+[board_modifier.py:85]: Setting SW52 footprint position: (166687500, 95250000)
+[board_modifier.py:85]: Setting SW53 footprint position: (185737500, 95250000)
+[board_modifier.py:85]: Setting SW54 footprint position: (204787500, 95250000)
+[board_modifier.py:85]: Setting SW55 footprint position: (223837500, 95250000)
+[board_modifier.py:85]: Setting SW56 footprint position: (242887500, 95250000)
+[board_modifier.py:85]: Setting SW57 footprint position: (261937500, 95250000)
+[board_modifier.py:85]: Setting SW58 footprint position: (280987500, 95250000)
+[board_modifier.py:85]: Setting SW59 footprint position: (307181250, 95250000)
+[board_modifier.py:85]: Setting SW60 footprint position: (361950000, 95250000)
+[board_modifier.py:85]: Setting SW61 footprint position: (338137500, 100012500)
+[board_modifier.py:85]: Setting SW62 footprint position: (38100000, 114300000)
+[board_modifier.py:85]: Setting SW63 footprint position: (69056250, 114300000)
+[board_modifier.py:85]: Setting SW64 footprint position: (92868750, 114300000)
+[board_modifier.py:85]: Setting SW65 footprint position: (116681250, 114300000)
+[board_modifier.py:85]: Setting SW66 footprint position: (150018750, 114300000)
+[board_modifier.py:85]: Setting SW67 footprint position: (188118750, 114300000)
+[board_modifier.py:85]: Setting SW68 footprint position: (226218750, 114300000)
+[board_modifier.py:85]: Setting SW69 footprint position: (261937500, 114300000)
+[board_modifier.py:85]: Setting SW70 footprint position: (290512500, 114300000)
+[board_modifier.py:85]: Setting SW71 footprint position: (319087500, 119062500)
+[board_modifier.py:85]: Setting SW72 footprint position: (338137500, 119062500)
+[board_modifier.py:85]: Setting SW73 footprint position: (357187500, 119062500)
+[key_placer.py:996]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=5.0, y=5.0, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting D1 footprint position: (43100000, 43100000)
+[board_modifier.py:98]: Getting SW2 footprint position: (66675000, 38100000)
+[board_modifier.py:85]: Setting D2 footprint position: (71675000, 43100000)
+[board_modifier.py:98]: Getting SW3 footprint position: (85725000, 38100000)
+[board_modifier.py:85]: Setting D3 footprint position: (90725000, 43100000)
+[board_modifier.py:98]: Getting SW4 footprint position: (104775000, 38100000)
+[board_modifier.py:85]: Setting D4 footprint position: (109775000, 43100000)
+[board_modifier.py:98]: Getting SW5 footprint position: (123825000, 38100000)
+[board_modifier.py:85]: Setting D5 footprint position: (128825000, 43100000)
+[board_modifier.py:98]: Getting SW6 footprint position: (142875000, 38100000)
+[board_modifier.py:85]: Setting D6 footprint position: (147875000, 43100000)
+[board_modifier.py:98]: Getting SW7 footprint position: (161925000, 38100000)
+[board_modifier.py:85]: Setting D7 footprint position: (166925000, 43100000)
+[board_modifier.py:98]: Getting SW8 footprint position: (180975000, 38100000)
+[board_modifier.py:85]: Setting D8 footprint position: (185975000, 43100000)
+[board_modifier.py:98]: Getting SW9 footprint position: (200025000, 38100000)
+[board_modifier.py:85]: Setting D9 footprint position: (205025000, 43100000)
+[board_modifier.py:98]: Getting SW10 footprint position: (219075000, 38100000)
+[board_modifier.py:85]: Setting D10 footprint position: (224075000, 43100000)
+[board_modifier.py:98]: Getting SW11 footprint position: (238125000, 38100000)
+[board_modifier.py:85]: Setting D11 footprint position: (243125000, 43100000)
+[board_modifier.py:98]: Getting SW12 footprint position: (257175000, 38100000)
+[board_modifier.py:85]: Setting D12 footprint position: (262175000, 43100000)
+[board_modifier.py:98]: Getting SW13 footprint position: (276225000, 38100000)
+[board_modifier.py:85]: Setting D13 footprint position: (281225000, 43100000)
+[board_modifier.py:98]: Getting SW14 footprint position: (295275000, 38100000)
+[board_modifier.py:85]: Setting D14 footprint position: (300275000, 43100000)
+[board_modifier.py:98]: Getting SW15 footprint position: (323850000, 38100000)
+[board_modifier.py:85]: Setting D15 footprint position: (328850000, 43100000)
+[board_modifier.py:98]: Getting SW16 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting D16 footprint position: (43100000, 62150000)
+[board_modifier.py:98]: Getting SW17 footprint position: (71437500, 57150000)
+[board_modifier.py:85]: Setting D17 footprint position: (76437500, 62150000)
+[board_modifier.py:98]: Getting SW18 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting D18 footprint position: (100250000, 62150000)
+[board_modifier.py:98]: Getting SW19 footprint position: (114300000, 57150000)
+[board_modifier.py:85]: Setting D19 footprint position: (119300000, 62150000)
+[board_modifier.py:98]: Getting SW20 footprint position: (133350000, 57150000)
+[board_modifier.py:85]: Setting D20 footprint position: (138350000, 62150000)
+[board_modifier.py:98]: Getting SW21 footprint position: (152400000, 57150000)
+[board_modifier.py:85]: Setting D21 footprint position: (157400000, 62150000)
+[board_modifier.py:98]: Getting SW22 footprint position: (171450000, 57150000)
+[board_modifier.py:85]: Setting D22 footprint position: (176450000, 62150000)
+[board_modifier.py:98]: Getting SW23 footprint position: (190500000, 57150000)
+[board_modifier.py:85]: Setting D23 footprint position: (195500000, 62150000)
+[board_modifier.py:98]: Getting SW24 footprint position: (209550000, 57150000)
+[board_modifier.py:85]: Setting D24 footprint position: (214550000, 62150000)
+[board_modifier.py:98]: Getting SW25 footprint position: (228600000, 57150000)
+[board_modifier.py:85]: Setting D25 footprint position: (233600000, 62150000)
+[board_modifier.py:98]: Getting SW26 footprint position: (247650000, 57150000)
+[board_modifier.py:85]: Setting D26 footprint position: (252650000, 62150000)
+[board_modifier.py:98]: Getting SW27 footprint position: (266700000, 57150000)
+[board_modifier.py:85]: Setting D27 footprint position: (271700000, 62150000)
+[board_modifier.py:98]: Getting SW28 footprint position: (285750000, 57150000)
+[board_modifier.py:85]: Setting D28 footprint position: (290750000, 62150000)
+[board_modifier.py:98]: Getting SW29 footprint position: (304800000, 57150000)
+[board_modifier.py:85]: Setting D29 footprint position: (309800000, 62150000)
+[board_modifier.py:98]: Getting SW30 footprint position: (328612500, 57150000)
+[board_modifier.py:85]: Setting D30 footprint position: (333612500, 62150000)
+[board_modifier.py:98]: Getting SW31 footprint position: (361950000, 57150000)
+[board_modifier.py:85]: Setting D31 footprint position: (366950000, 62150000)
+[board_modifier.py:98]: Getting SW32 footprint position: (38100000, 76200000)
+[board_modifier.py:85]: Setting D32 footprint position: (43100000, 81200000)
+[board_modifier.py:98]: Getting SW33 footprint position: (73818750, 76200000)
+[board_modifier.py:85]: Setting D33 footprint position: (78818750, 81200000)
+[board_modifier.py:98]: Getting SW34 footprint position: (100012500, 76200000)
+[board_modifier.py:85]: Setting D34 footprint position: (105012500, 81200000)
+[board_modifier.py:98]: Getting SW35 footprint position: (119062500, 76200000)
+[board_modifier.py:85]: Setting D35 footprint position: (124062500, 81200000)
+[board_modifier.py:98]: Getting SW36 footprint position: (138112500, 76200000)
+[board_modifier.py:85]: Setting D36 footprint position: (143112500, 81200000)
+[board_modifier.py:98]: Getting SW37 footprint position: (157162500, 76200000)
+[board_modifier.py:85]: Setting D37 footprint position: (162162500, 81200000)
+[board_modifier.py:98]: Getting SW38 footprint position: (176212500, 76200000)
+[board_modifier.py:85]: Setting D38 footprint position: (181212500, 81200000)
+[board_modifier.py:98]: Getting SW39 footprint position: (195262500, 76200000)
+[board_modifier.py:85]: Setting D39 footprint position: (200262500, 81200000)
+[board_modifier.py:98]: Getting SW40 footprint position: (214312500, 76200000)
+[board_modifier.py:85]: Setting D40 footprint position: (219312500, 81200000)
+[board_modifier.py:98]: Getting SW41 footprint position: (233362500, 76200000)
+[board_modifier.py:85]: Setting D41 footprint position: (238362500, 81200000)
+[board_modifier.py:98]: Getting SW42 footprint position: (252412500, 76200000)
+[board_modifier.py:85]: Setting D42 footprint position: (257412500, 81200000)
+[board_modifier.py:98]: Getting SW43 footprint position: (271462500, 76200000)
+[board_modifier.py:85]: Setting D43 footprint position: (276462500, 81200000)
+[board_modifier.py:98]: Getting SW44 footprint position: (290512500, 76200000)
+[board_modifier.py:85]: Setting D44 footprint position: (295512500, 81200000)
+[board_modifier.py:98]: Getting SW45 footprint position: (321468750, 76200000)
+[board_modifier.py:85]: Setting D45 footprint position: (326468750, 81200000)
+[board_modifier.py:98]: Getting SW46 footprint position: (361950000, 76200000)
+[board_modifier.py:85]: Setting D46 footprint position: (366950000, 81200000)
+[board_modifier.py:98]: Getting SW47 footprint position: (38100000, 95250000)
+[board_modifier.py:85]: Setting D47 footprint position: (43100000, 100250000)
+[board_modifier.py:98]: Getting SW48 footprint position: (78581250, 95250000)
+[board_modifier.py:85]: Setting D48 footprint position: (83581250, 100250000)
+[board_modifier.py:98]: Getting SW49 footprint position: (109537500, 95250000)
+[board_modifier.py:85]: Setting D49 footprint position: (114537500, 100250000)
+[board_modifier.py:98]: Getting SW50 footprint position: (128587500, 95250000)
+[board_modifier.py:85]: Setting D50 footprint position: (133587500, 100250000)
+[board_modifier.py:98]: Getting SW51 footprint position: (147637500, 95250000)
+[board_modifier.py:85]: Setting D51 footprint position: (152637500, 100250000)
+[board_modifier.py:98]: Getting SW52 footprint position: (166687500, 95250000)
+[board_modifier.py:85]: Setting D52 footprint position: (171687500, 100250000)
+[board_modifier.py:98]: Getting SW53 footprint position: (185737500, 95250000)
+[board_modifier.py:85]: Setting D53 footprint position: (190737500, 100250000)
+[board_modifier.py:98]: Getting SW54 footprint position: (204787500, 95250000)
+[board_modifier.py:85]: Setting D54 footprint position: (209787500, 100250000)
+[board_modifier.py:98]: Getting SW55 footprint position: (223837500, 95250000)
+[board_modifier.py:85]: Setting D55 footprint position: (228837500, 100250000)
+[board_modifier.py:98]: Getting SW56 footprint position: (242887500, 95250000)
+[board_modifier.py:85]: Setting D56 footprint position: (247887500, 100250000)
+[board_modifier.py:98]: Getting SW57 footprint position: (261937500, 95250000)
+[board_modifier.py:85]: Setting D57 footprint position: (266937500, 100250000)
+[board_modifier.py:98]: Getting SW58 footprint position: (280987500, 95250000)
+[board_modifier.py:85]: Setting D58 footprint position: (285987500, 100250000)
+[board_modifier.py:98]: Getting SW59 footprint position: (307181250, 95250000)
+[board_modifier.py:85]: Setting D59 footprint position: (312181250, 100250000)
+[board_modifier.py:98]: Getting SW60 footprint position: (361950000, 95250000)
+[board_modifier.py:85]: Setting D60 footprint position: (366950000, 100250000)
+[board_modifier.py:98]: Getting SW61 footprint position: (338137500, 100012500)
+[board_modifier.py:85]: Setting D61 footprint position: (343137500, 105012500)
+[board_modifier.py:98]: Getting SW62 footprint position: (38100000, 114300000)
+[board_modifier.py:85]: Setting D62 footprint position: (43100000, 119300000)
+[board_modifier.py:98]: Getting SW63 footprint position: (69056250, 114300000)
+[board_modifier.py:85]: Setting D63 footprint position: (74056250, 119300000)
+[board_modifier.py:98]: Getting SW64 footprint position: (92868750, 114300000)
+[board_modifier.py:85]: Setting D64 footprint position: (97868750, 119300000)
+[board_modifier.py:98]: Getting SW65 footprint position: (116681250, 114300000)
+[board_modifier.py:85]: Setting D65 footprint position: (121681250, 119300000)
+[board_modifier.py:98]: Getting SW66 footprint position: (150018750, 114300000)
+[board_modifier.py:85]: Setting D66 footprint position: (155018750, 119300000)
+[board_modifier.py:98]: Getting SW67 footprint position: (188118750, 114300000)
+[board_modifier.py:85]: Setting D67 footprint position: (193118750, 119300000)
+[board_modifier.py:98]: Getting SW68 footprint position: (226218750, 114300000)
+[board_modifier.py:85]: Setting D68 footprint position: (231218750, 119300000)
+[board_modifier.py:98]: Getting SW69 footprint position: (261937500, 114300000)
+[board_modifier.py:85]: Setting D69 footprint position: (266937500, 119300000)
+[board_modifier.py:98]: Getting SW70 footprint position: (290512500, 114300000)
+[board_modifier.py:85]: Setting D70 footprint position: (295512500, 119300000)
+[board_modifier.py:98]: Getting SW71 footprint position: (319087500, 119062500)
+[board_modifier.py:85]: Setting D71 footprint position: (324087500, 124062500)
+[board_modifier.py:98]: Getting SW72 footprint position: (338137500, 119062500)
+[board_modifier.py:85]: Setting D72 footprint position: (343137500, 124062500)
+[board_modifier.py:98]: Getting SW73 footprint position: (357187500, 119062500)
+[board_modifier.py:85]: Setting D73 footprint position: (362187500, 124062500)
+[board_modifier.py:98]: Getting SW76 footprint position: (368850000, 42100000)
+[key_placer.py:746]: Optimizing orientation of SW1 diodes
+[board_modifier.py:98]: Getting D1 footprint position: (43100000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW2 diodes
+[board_modifier.py:98]: Getting D2 footprint position: (71675000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW3 diodes
+[board_modifier.py:98]: Getting D3 footprint position: (90725000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW4 diodes
+[board_modifier.py:98]: Getting D4 footprint position: (109775000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW5 diodes
+[board_modifier.py:98]: Getting D5 footprint position: (128825000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW6 diodes
+[board_modifier.py:98]: Getting D6 footprint position: (147875000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW7 diodes
+[board_modifier.py:98]: Getting D7 footprint position: (166925000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW8 diodes
+[board_modifier.py:98]: Getting D8 footprint position: (185975000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW9 diodes
+[board_modifier.py:98]: Getting D9 footprint position: (205025000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW10 diodes
+[board_modifier.py:98]: Getting D10 footprint position: (224075000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW11 diodes
+[board_modifier.py:98]: Getting D11 footprint position: (243125000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW12 diodes
+[board_modifier.py:98]: Getting D12 footprint position: (262175000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW13 diodes
+[board_modifier.py:98]: Getting D13 footprint position: (281225000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW14 diodes
+[board_modifier.py:98]: Getting D14 footprint position: (300275000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW15 diodes
+[board_modifier.py:98]: Getting D15 footprint position: (328850000, 43100000)
+[key_placer.py:746]: Optimizing orientation of SW16 diodes
+[board_modifier.py:98]: Getting D16 footprint position: (43100000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW17 diodes
+[board_modifier.py:98]: Getting D17 footprint position: (76437500, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW18 diodes
+[board_modifier.py:98]: Getting D18 footprint position: (100250000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW19 diodes
+[board_modifier.py:98]: Getting D19 footprint position: (119300000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW20 diodes
+[board_modifier.py:98]: Getting D20 footprint position: (138350000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW21 diodes
+[board_modifier.py:98]: Getting D21 footprint position: (157400000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW22 diodes
+[board_modifier.py:98]: Getting D22 footprint position: (176450000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW23 diodes
+[board_modifier.py:98]: Getting D23 footprint position: (195500000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW24 diodes
+[board_modifier.py:98]: Getting D24 footprint position: (214550000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW25 diodes
+[board_modifier.py:98]: Getting D25 footprint position: (233600000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW26 diodes
+[board_modifier.py:98]: Getting D26 footprint position: (252650000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW27 diodes
+[board_modifier.py:98]: Getting D27 footprint position: (271700000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW28 diodes
+[board_modifier.py:98]: Getting D28 footprint position: (290750000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW29 diodes
+[board_modifier.py:98]: Getting D29 footprint position: (309800000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW30 diodes
+[board_modifier.py:98]: Getting D30 footprint position: (333612500, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW31 diodes
+[board_modifier.py:98]: Getting D31 footprint position: (366950000, 62150000)
+[key_placer.py:746]: Optimizing orientation of SW32 diodes
+[board_modifier.py:98]: Getting D32 footprint position: (43100000, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW33 diodes
+[board_modifier.py:98]: Getting D33 footprint position: (78818750, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW34 diodes
+[board_modifier.py:98]: Getting D34 footprint position: (105012500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW35 diodes
+[board_modifier.py:98]: Getting D35 footprint position: (124062500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW36 diodes
+[board_modifier.py:98]: Getting D36 footprint position: (143112500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW37 diodes
+[board_modifier.py:98]: Getting D37 footprint position: (162162500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW38 diodes
+[board_modifier.py:98]: Getting D38 footprint position: (181212500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW39 diodes
+[board_modifier.py:98]: Getting D39 footprint position: (200262500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW40 diodes
+[board_modifier.py:98]: Getting D40 footprint position: (219312500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW41 diodes
+[board_modifier.py:98]: Getting D41 footprint position: (238362500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW42 diodes
+[board_modifier.py:98]: Getting D42 footprint position: (257412500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW43 diodes
+[board_modifier.py:98]: Getting D43 footprint position: (276462500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW44 diodes
+[board_modifier.py:98]: Getting D44 footprint position: (295512500, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW45 diodes
+[board_modifier.py:98]: Getting D45 footprint position: (326468750, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW46 diodes
+[board_modifier.py:98]: Getting D46 footprint position: (366950000, 81200000)
+[key_placer.py:746]: Optimizing orientation of SW47 diodes
+[board_modifier.py:98]: Getting D47 footprint position: (43100000, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW48 diodes
+[board_modifier.py:98]: Getting D48 footprint position: (83581250, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW49 diodes
+[board_modifier.py:98]: Getting D49 footprint position: (114537500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW50 diodes
+[board_modifier.py:98]: Getting D50 footprint position: (133587500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW51 diodes
+[board_modifier.py:98]: Getting D51 footprint position: (152637500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW52 diodes
+[board_modifier.py:98]: Getting D52 footprint position: (171687500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW53 diodes
+[board_modifier.py:98]: Getting D53 footprint position: (190737500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW54 diodes
+[board_modifier.py:98]: Getting D54 footprint position: (209787500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW55 diodes
+[board_modifier.py:98]: Getting D55 footprint position: (228837500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW56 diodes
+[board_modifier.py:98]: Getting D56 footprint position: (247887500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW57 diodes
+[board_modifier.py:98]: Getting D57 footprint position: (266937500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW58 diodes
+[board_modifier.py:98]: Getting D58 footprint position: (285987500, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW59 diodes
+[board_modifier.py:98]: Getting D59 footprint position: (312181250, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW60 diodes
+[board_modifier.py:98]: Getting D60 footprint position: (366950000, 100250000)
+[key_placer.py:746]: Optimizing orientation of SW61 diodes
+[board_modifier.py:98]: Getting D61 footprint position: (343137500, 105012500)
+[key_placer.py:746]: Optimizing orientation of SW62 diodes
+[board_modifier.py:98]: Getting D62 footprint position: (43100000, 119300000)
+[key_placer.py:746]: Optimizing orientation of SW63 diodes
+[board_modifier.py:98]: Getting D63 footprint position: (74056250, 119300000)
+[key_placer.py:746]: Optimizing orientation of SW64 diodes
+[board_modifier.py:98]: Getting D64 footprint position: (97868750, 119300000)
+[key_placer.py:746]: Optimizing orientation of SW65 diodes
+[board_modifier.py:98]: Getting D65 footprint position: (121681250, 119300000)
+[key_placer.py:746]: Optimizing orientation of SW66 diodes
+[board_modifier.py:98]: Getting D66 footprint position: (155018750, 119300000)
+[key_placer.py:746]: Optimizing orientation of SW67 diodes
+[board_modifier.py:98]: Getting D67 footprint position: (193118750, 119300000)
+[key_placer.py:746]: Optimizing orientation of SW68 diodes
+[board_modifier.py:98]: Getting D68 footprint position: (231218750, 119300000)
+[key_placer.py:746]: Optimizing orientation of SW69 diodes
+[board_modifier.py:98]: Getting D69 footprint position: (266937500, 119300000)
+[key_placer.py:746]: Optimizing orientation of SW70 diodes
+[board_modifier.py:98]: Getting D70 footprint position: (295512500, 119300000)
+[key_placer.py:746]: Optimizing orientation of SW71 diodes
+[board_modifier.py:98]: Getting D71 footprint position: (324087500, 124062500)
+[key_placer.py:746]: Optimizing orientation of SW72 diodes
+[board_modifier.py:98]: Getting D72 footprint position: (343137500, 124062500)
+[key_placer.py:746]: Optimizing orientation of SW73 diodes
+[board_modifier.py:98]: Getting D73 footprint position: (362187500, 124062500)
+[key_placer.py:746]: Optimizing orientation of SW76 diodes
+[key_placer.py:774]: Placing additional elements for SW30
+[board_modifier.py:98]: Getting SW30 footprint position: (328612500, 57150000)
+[board_modifier.py:75]: Searching for optional ST30 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW33
+[board_modifier.py:98]: Getting SW33 footprint position: (73818750, 76200000)
+[board_modifier.py:75]: Searching for optional ST33 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW31
+[board_modifier.py:98]: Getting SW31 footprint position: (361950000, 57150000)
+[board_modifier.py:75]: Searching for optional ST31 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW56
+[board_modifier.py:98]: Getting SW56 footprint position: (242887500, 95250000)
+[board_modifier.py:75]: Searching for optional ST56 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW23
+[board_modifier.py:98]: Getting SW23 footprint position: (190500000, 57150000)
+[board_modifier.py:75]: Searching for optional ST23 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW42
+[board_modifier.py:98]: Getting SW42 footprint position: (252412500, 76200000)
+[board_modifier.py:75]: Searching for optional ST42 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW54
+[board_modifier.py:98]: Getting SW54 footprint position: (204787500, 95250000)
+[board_modifier.py:75]: Searching for optional ST54 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW65
+[board_modifier.py:98]: Getting SW65 footprint position: (116681250, 114300000)
+[board_modifier.py:75]: Searching for optional ST65 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW59
+[board_modifier.py:98]: Getting SW59 footprint position: (307181250, 95250000)
+[board_modifier.py:75]: Searching for optional ST59 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (142875000, 38100000)
+[board_modifier.py:75]: Searching for optional ST6 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW61
+[board_modifier.py:98]: Getting SW61 footprint position: (338137500, 100012500)
+[board_modifier.py:75]: Searching for optional ST61 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW43
+[board_modifier.py:98]: Getting SW43 footprint position: (271462500, 76200000)
+[board_modifier.py:75]: Searching for optional ST43 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW48
+[board_modifier.py:98]: Getting SW48 footprint position: (78581250, 95250000)
+[board_modifier.py:75]: Searching for optional ST48 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW17
+[board_modifier.py:98]: Getting SW17 footprint position: (71437500, 57150000)
+[board_modifier.py:75]: Searching for optional ST17 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW71
+[board_modifier.py:98]: Getting SW71 footprint position: (319087500, 119062500)
+[board_modifier.py:75]: Searching for optional ST71 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW35
+[board_modifier.py:98]: Getting SW35 footprint position: (119062500, 76200000)
+[board_modifier.py:75]: Searching for optional ST35 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW51
+[board_modifier.py:98]: Getting SW51 footprint position: (147637500, 95250000)
+[board_modifier.py:75]: Searching for optional ST51 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW69
+[board_modifier.py:98]: Getting SW69 footprint position: (261937500, 114300000)
+[board_modifier.py:75]: Searching for optional ST69 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW32
+[board_modifier.py:98]: Getting SW32 footprint position: (38100000, 76200000)
+[board_modifier.py:75]: Searching for optional ST32 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW70
+[board_modifier.py:98]: Getting SW70 footprint position: (290512500, 114300000)
+[board_modifier.py:75]: Searching for optional ST70 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW68
+[board_modifier.py:98]: Getting SW68 footprint position: (226218750, 114300000)
+[board_modifier.py:75]: Searching for optional ST68 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW73
+[board_modifier.py:98]: Getting SW73 footprint position: (357187500, 119062500)
+[board_modifier.py:75]: Searching for optional ST73 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW10
+[board_modifier.py:98]: Getting SW10 footprint position: (219075000, 38100000)
+[board_modifier.py:75]: Searching for optional ST10 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW76
+[board_modifier.py:98]: Getting SW76 footprint position: (368850000, 42100000)
+[board_modifier.py:75]: Searching for optional ST76 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW5
+[board_modifier.py:98]: Getting SW5 footprint position: (123825000, 38100000)
+[board_modifier.py:75]: Searching for optional ST5 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW44
+[board_modifier.py:98]: Getting SW44 footprint position: (290512500, 76200000)
+[board_modifier.py:75]: Searching for optional ST44 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW25
+[board_modifier.py:98]: Getting SW25 footprint position: (228600000, 57150000)
+[board_modifier.py:75]: Searching for optional ST25 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW26
+[board_modifier.py:98]: Getting SW26 footprint position: (247650000, 57150000)
+[board_modifier.py:75]: Searching for optional ST26 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW12
+[board_modifier.py:98]: Getting SW12 footprint position: (257175000, 38100000)
+[board_modifier.py:75]: Searching for optional ST12 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW52
+[board_modifier.py:98]: Getting SW52 footprint position: (166687500, 95250000)
+[board_modifier.py:75]: Searching for optional ST52 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW67
+[board_modifier.py:98]: Getting SW67 footprint position: (188118750, 114300000)
+[board_modifier.py:75]: Searching for optional ST67 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW63
+[board_modifier.py:98]: Getting SW63 footprint position: (69056250, 114300000)
+[board_modifier.py:75]: Searching for optional ST63 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW38
+[board_modifier.py:98]: Getting SW38 footprint position: (176212500, 76200000)
+[board_modifier.py:75]: Searching for optional ST38 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW39
+[board_modifier.py:98]: Getting SW39 footprint position: (195262500, 76200000)
+[board_modifier.py:75]: Searching for optional ST39 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW41
+[board_modifier.py:98]: Getting SW41 footprint position: (233362500, 76200000)
+[board_modifier.py:75]: Searching for optional ST41 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW47
+[board_modifier.py:98]: Getting SW47 footprint position: (38100000, 95250000)
+[board_modifier.py:75]: Searching for optional ST47 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:75]: Searching for optional ST1 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW16
+[board_modifier.py:98]: Getting SW16 footprint position: (38100000, 57150000)
+[board_modifier.py:75]: Searching for optional ST16 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW57
+[board_modifier.py:98]: Getting SW57 footprint position: (261937500, 95250000)
+[board_modifier.py:75]: Searching for optional ST57 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (104775000, 38100000)
+[board_modifier.py:75]: Searching for optional ST4 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW20
+[board_modifier.py:98]: Getting SW20 footprint position: (133350000, 57150000)
+[board_modifier.py:75]: Searching for optional ST20 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW24
+[board_modifier.py:98]: Getting SW24 footprint position: (209550000, 57150000)
+[board_modifier.py:75]: Searching for optional ST24 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW64
+[board_modifier.py:98]: Getting SW64 footprint position: (92868750, 114300000)
+[board_modifier.py:75]: Searching for optional ST64 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW21
+[board_modifier.py:98]: Getting SW21 footprint position: (152400000, 57150000)
+[board_modifier.py:75]: Searching for optional ST21 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW27
+[board_modifier.py:98]: Getting SW27 footprint position: (266700000, 57150000)
+[board_modifier.py:75]: Searching for optional ST27 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW29
+[board_modifier.py:98]: Getting SW29 footprint position: (304800000, 57150000)
+[board_modifier.py:75]: Searching for optional ST29 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (66675000, 38100000)
+[board_modifier.py:75]: Searching for optional ST2 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW28
+[board_modifier.py:98]: Getting SW28 footprint position: (285750000, 57150000)
+[board_modifier.py:75]: Searching for optional ST28 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW19
+[board_modifier.py:98]: Getting SW19 footprint position: (114300000, 57150000)
+[board_modifier.py:75]: Searching for optional ST19 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (180975000, 38100000)
+[board_modifier.py:75]: Searching for optional ST8 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW9
+[board_modifier.py:98]: Getting SW9 footprint position: (200025000, 38100000)
+[board_modifier.py:75]: Searching for optional ST9 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW72
+[board_modifier.py:98]: Getting SW72 footprint position: (338137500, 119062500)
+[board_modifier.py:75]: Searching for optional ST72 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW60
+[board_modifier.py:98]: Getting SW60 footprint position: (361950000, 95250000)
+[board_modifier.py:75]: Searching for optional ST60 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW7
+[board_modifier.py:98]: Getting SW7 footprint position: (161925000, 38100000)
+[board_modifier.py:75]: Searching for optional ST7 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (95250000, 57150000)
+[board_modifier.py:75]: Searching for optional ST18 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW62
+[board_modifier.py:98]: Getting SW62 footprint position: (38100000, 114300000)
+[board_modifier.py:75]: Searching for optional ST62 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (85725000, 38100000)
+[board_modifier.py:75]: Searching for optional ST3 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW34
+[board_modifier.py:98]: Getting SW34 footprint position: (100012500, 76200000)
+[board_modifier.py:75]: Searching for optional ST34 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW53
+[board_modifier.py:98]: Getting SW53 footprint position: (185737500, 95250000)
+[board_modifier.py:75]: Searching for optional ST53 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW58
+[board_modifier.py:98]: Getting SW58 footprint position: (280987500, 95250000)
+[board_modifier.py:75]: Searching for optional ST58 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW40
+[board_modifier.py:98]: Getting SW40 footprint position: (214312500, 76200000)
+[board_modifier.py:75]: Searching for optional ST40 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW50
+[board_modifier.py:98]: Getting SW50 footprint position: (128587500, 95250000)
+[board_modifier.py:75]: Searching for optional ST50 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW55
+[board_modifier.py:98]: Getting SW55 footprint position: (223837500, 95250000)
+[board_modifier.py:75]: Searching for optional ST55 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW66
+[board_modifier.py:98]: Getting SW66 footprint position: (150018750, 114300000)
+[board_modifier.py:75]: Searching for optional ST66 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW46
+[board_modifier.py:98]: Getting SW46 footprint position: (361950000, 76200000)
+[board_modifier.py:75]: Searching for optional ST46 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW49
+[board_modifier.py:98]: Getting SW49 footprint position: (109537500, 95250000)
+[board_modifier.py:75]: Searching for optional ST49 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW15
+[board_modifier.py:98]: Getting SW15 footprint position: (323850000, 38100000)
+[board_modifier.py:75]: Searching for optional ST15 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (295275000, 38100000)
+[board_modifier.py:75]: Searching for optional ST14 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW11
+[board_modifier.py:98]: Getting SW11 footprint position: (238125000, 38100000)
+[board_modifier.py:75]: Searching for optional ST11 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW45
+[board_modifier.py:98]: Getting SW45 footprint position: (321468750, 76200000)
+[board_modifier.py:75]: Searching for optional ST45 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW22
+[board_modifier.py:98]: Getting SW22 footprint position: (171450000, 57150000)
+[board_modifier.py:75]: Searching for optional ST22 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW36
+[board_modifier.py:98]: Getting SW36 footprint position: (138112500, 76200000)
+[board_modifier.py:75]: Searching for optional ST36 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW13
+[board_modifier.py:98]: Getting SW13 footprint position: (276225000, 38100000)
+[board_modifier.py:75]: Searching for optional ST13 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW37
+[board_modifier.py:98]: Getting SW37 footprint position: (157162500, 76200000)
+[board_modifier.py:75]: Searching for optional ST37 footprint in /home/kalyan/Documents/electrical/kb/kb.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:423]: Routing SW30 with D30
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW30:2' at (331152500, 52070000) with pad 'D30:2' at (333612500, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(331152500, 52070000), (331152500, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(331152500, 58040000), (333612500, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW33 with D33
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW33:2' at (76358750, 71120000) with pad 'D33:2' at (78818750, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(76358750, 71120000), (76358750, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(76358750, 77090000), (78818750, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW31 with D31
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW31:2' at (364490000, 52070000) with pad 'D31:2' at (366950000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(364490000, 52070000), (364490000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(364490000, 58040000), (366950000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW56 with D56
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW56:2' at (245427500, 90170000) with pad 'D56:2' at (247887500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(245427500, 90170000), (245427500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(245427500, 96140000), (247887500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW23 with D23
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW23:2' at (193040000, 52070000) with pad 'D23:2' at (195500000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(193040000, 52070000), (193040000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(193040000, 58040000), (195500000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW42 with D42
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW42:2' at (254952500, 71120000) with pad 'D42:2' at (257412500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(254952500, 71120000), (254952500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(254952500, 77090000), (257412500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW54 with D54
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW54:2' at (207327500, 90170000) with pad 'D54:2' at (209787500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(207327500, 90170000), (207327500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(207327500, 96140000), (209787500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW65 with D65
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW65:2' at (119221250, 109220000) with pad 'D65:2' at (121681250, 117650000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(119221250, 109220000), (119221250, 115190000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(119221250, 115190000), (121681250, 117650000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW59 with D59
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW59:2' at (309721250, 90170000) with pad 'D59:2' at (312181250, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(309721250, 90170000), (309721250, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(309721250, 96140000), (312181250, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW6 with D6
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW6:2' at (145415000, 33020000) with pad 'D6:2' at (147875000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(145415000, 33020000), (145415000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(145415000, 38990000), (147875000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW61 with D61
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW61:2' at (340677500, 94932500) with pad 'D61:2' at (343137500, 103362500) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(340677500, 94932500), (340677500, 100902500)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(340677500, 100902500), (343137500, 103362500)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW43 with D43
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW43:2' at (274002500, 71120000) with pad 'D43:2' at (276462500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(274002500, 71120000), (274002500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(274002500, 77090000), (276462500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW48 with D48
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW48:2' at (81121250, 90170000) with pad 'D48:2' at (83581250, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(81121250, 90170000), (81121250, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(81121250, 96140000), (83581250, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW17 with D17
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW17:2' at (73977500, 52070000) with pad 'D17:2' at (76437500, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(73977500, 52070000), (73977500, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(73977500, 58040000), (76437500, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW71 with D71
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW71:2' at (321627500, 113982500) with pad 'D71:2' at (324087500, 122412500) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(321627500, 113982500), (321627500, 119952500)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(321627500, 119952500), (324087500, 122412500)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW35 with D35
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW35:2' at (121602500, 71120000) with pad 'D35:2' at (124062500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(121602500, 71120000), (121602500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(121602500, 77090000), (124062500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW51 with D51
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW51:2' at (150177500, 90170000) with pad 'D51:2' at (152637500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(150177500, 90170000), (150177500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(150177500, 96140000), (152637500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW69 with D69
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW69:2' at (264477500, 109220000) with pad 'D69:2' at (266937500, 117650000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(264477500, 109220000), (264477500, 115190000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(264477500, 115190000), (266937500, 117650000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW32 with D32
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW32:2' at (40640000, 71120000) with pad 'D32:2' at (43100000, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 71120000), (40640000, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 77090000), (43100000, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW70 with D70
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW70:2' at (293052500, 109220000) with pad 'D70:2' at (295512500, 117650000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(293052500, 109220000), (293052500, 115190000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(293052500, 115190000), (295512500, 117650000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW68 with D68
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW68:2' at (228758750, 109220000) with pad 'D68:2' at (231218750, 117650000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(228758750, 109220000), (228758750, 115190000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(228758750, 115190000), (231218750, 117650000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW73 with D73
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW73:2' at (359727500, 113982500) with pad 'D73:2' at (362187500, 122412500) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(359727500, 113982500), (359727500, 119952500)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(359727500, 119952500), (362187500, 122412500)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW10 with D10
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW10:2' at (221615000, 33020000) with pad 'D10:2' at (224075000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(221615000, 33020000), (221615000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(221615000, 38990000), (224075000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW5 with D5
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW5:2' at (126365000, 33020000) with pad 'D5:2' at (128825000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(126365000, 33020000), (126365000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(126365000, 38990000), (128825000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW44 with D44
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW44:2' at (293052500, 71120000) with pad 'D44:2' at (295512500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(293052500, 71120000), (293052500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(293052500, 77090000), (295512500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW25 with D25
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW25:2' at (231140000, 52070000) with pad 'D25:2' at (233600000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(231140000, 52070000), (231140000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(231140000, 58040000), (233600000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW26 with D26
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW26:2' at (250190000, 52070000) with pad 'D26:2' at (252650000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(250190000, 52070000), (250190000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(250190000, 58040000), (252650000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW12 with D12
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW12:2' at (259715000, 33020000) with pad 'D12:2' at (262175000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(259715000, 33020000), (259715000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(259715000, 38990000), (262175000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW52 with D52
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW52:2' at (169227500, 90170000) with pad 'D52:2' at (171687500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(169227500, 90170000), (169227500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(169227500, 96140000), (171687500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW67 with D67
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW67:2' at (190658750, 109220000) with pad 'D67:2' at (193118750, 117650000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(190658750, 109220000), (190658750, 115190000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(190658750, 115190000), (193118750, 117650000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW63 with D63
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW63:2' at (71596250, 109220000) with pad 'D63:2' at (74056250, 117650000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(71596250, 109220000), (71596250, 115190000)]
+[board_modifier.py:455]: Could not add track segment due to detected collision
+[board_modifier.py:445]: Adding track segment (B.Cu): [(71596250, 109220000), (74056250, 111680000)]
+[board_modifier.py:455]: Could not add track segment due to detected collision
+[key_placer.py:423]: Routing SW38 with D38
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW38:2' at (178752500, 71120000) with pad 'D38:2' at (181212500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(178752500, 71120000), (178752500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(178752500, 77090000), (181212500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW39 with D39
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW39:2' at (197802500, 71120000) with pad 'D39:2' at (200262500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(197802500, 71120000), (197802500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(197802500, 77090000), (200262500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW41 with D41
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW41:2' at (235902500, 71120000) with pad 'D41:2' at (238362500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(235902500, 71120000), (235902500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(235902500, 77090000), (238362500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW47 with D47
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW47:2' at (40640000, 90170000) with pad 'D47:2' at (43100000, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 90170000), (40640000, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 96140000), (43100000, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW1 with D1
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW1:2' at (40640000, 33020000) with pad 'D1:2' at (43100000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 33020000), (40640000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 38990000), (43100000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW16 with D16
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW16:2' at (40640000, 52070000) with pad 'D16:2' at (43100000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 52070000), (40640000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 58040000), (43100000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW57 with D57
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW57:2' at (264477500, 90170000) with pad 'D57:2' at (266937500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(264477500, 90170000), (264477500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(264477500, 96140000), (266937500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW4 with D4
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW4:2' at (107315000, 33020000) with pad 'D4:2' at (109775000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(107315000, 33020000), (107315000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(107315000, 38990000), (109775000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW20 with D20
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW20:2' at (135890000, 52070000) with pad 'D20:2' at (138350000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(135890000, 52070000), (135890000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(135890000, 58040000), (138350000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW24 with D24
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW24:2' at (212090000, 52070000) with pad 'D24:2' at (214550000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(212090000, 52070000), (212090000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(212090000, 58040000), (214550000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW64 with D64
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW64:2' at (95408750, 109220000) with pad 'D64:2' at (97868750, 117650000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(95408750, 109220000), (95408750, 115190000)]
+[board_modifier.py:455]: Could not add track segment due to detected collision
+[board_modifier.py:445]: Adding track segment (B.Cu): [(95408750, 109220000), (97868750, 111680000)]
+[board_modifier.py:455]: Could not add track segment due to detected collision
+[key_placer.py:423]: Routing SW21 with D21
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW21:2' at (154940000, 52070000) with pad 'D21:2' at (157400000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(154940000, 52070000), (154940000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(154940000, 58040000), (157400000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW27 with D27
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW27:2' at (269240000, 52070000) with pad 'D27:2' at (271700000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(269240000, 52070000), (269240000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(269240000, 58040000), (271700000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW29 with D29
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW29:2' at (307340000, 52070000) with pad 'D29:2' at (309800000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(307340000, 52070000), (307340000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(307340000, 58040000), (309800000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW2 with D2
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW2:2' at (69215000, 33020000) with pad 'D2:2' at (71675000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(69215000, 33020000), (69215000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(69215000, 38990000), (71675000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW28 with D28
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW28:2' at (288290000, 52070000) with pad 'D28:2' at (290750000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(288290000, 52070000), (288290000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(288290000, 58040000), (290750000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW19 with D19
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW19:2' at (116840000, 52070000) with pad 'D19:2' at (119300000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(116840000, 52070000), (116840000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(116840000, 58040000), (119300000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW8 with D8
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW8:2' at (183515000, 33020000) with pad 'D8:2' at (185975000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(183515000, 33020000), (183515000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(183515000, 38990000), (185975000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW9 with D9
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW9:2' at (202565000, 33020000) with pad 'D9:2' at (205025000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(202565000, 33020000), (202565000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(202565000, 38990000), (205025000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW72 with D72
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW72:2' at (340677500, 113982500) with pad 'D72:2' at (343137500, 122412500) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(340677500, 113982500), (340677500, 119952500)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(340677500, 119952500), (343137500, 122412500)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW60 with D60
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW60:2' at (364490000, 90170000) with pad 'D60:2' at (366950000, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(364490000, 90170000), (364490000, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(364490000, 96140000), (366950000, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW7 with D7
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW7:2' at (164465000, 33020000) with pad 'D7:2' at (166925000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(164465000, 33020000), (164465000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(164465000, 38990000), (166925000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW18 with D18
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW18:2' at (97790000, 52070000) with pad 'D18:2' at (100250000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(97790000, 52070000), (97790000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(97790000, 58040000), (100250000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW62 with D62
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW62:2' at (40640000, 109220000) with pad 'D62:2' at (43100000, 117650000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 109220000), (40640000, 115190000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(40640000, 115190000), (43100000, 117650000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW3 with D3
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW3:2' at (88265000, 33020000) with pad 'D3:2' at (90725000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(88265000, 33020000), (88265000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(88265000, 38990000), (90725000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW34 with D34
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW34:2' at (102552500, 71120000) with pad 'D34:2' at (105012500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(102552500, 71120000), (102552500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(102552500, 77090000), (105012500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW53 with D53
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW53:2' at (188277500, 90170000) with pad 'D53:2' at (190737500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(188277500, 90170000), (188277500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(188277500, 96140000), (190737500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW58 with D58
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW58:2' at (283527500, 90170000) with pad 'D58:2' at (285987500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(283527500, 90170000), (283527500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(283527500, 96140000), (285987500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW40 with D40
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW40:2' at (216852500, 71120000) with pad 'D40:2' at (219312500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(216852500, 71120000), (216852500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(216852500, 77090000), (219312500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW50 with D50
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW50:2' at (131127500, 90170000) with pad 'D50:2' at (133587500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(131127500, 90170000), (131127500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(131127500, 96140000), (133587500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW55 with D55
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW55:2' at (226377500, 90170000) with pad 'D55:2' at (228837500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(226377500, 90170000), (226377500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(226377500, 96140000), (228837500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW66 with D66
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW66:2' at (152558750, 109220000) with pad 'D66:2' at (155018750, 117650000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(152558750, 109220000), (152558750, 115190000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(152558750, 115190000), (155018750, 117650000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW46 with D46
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW46:2' at (364490000, 71120000) with pad 'D46:2' at (366950000, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(364490000, 71120000), (364490000, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(364490000, 77090000), (366950000, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW49 with D49
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW49:2' at (112077500, 90170000) with pad 'D49:2' at (114537500, 98600000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(112077500, 90170000), (112077500, 96140000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(112077500, 96140000), (114537500, 98600000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW15 with D15
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW15:2' at (326390000, 33020000) with pad 'D15:2' at (328850000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(326390000, 33020000), (326390000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(326390000, 38990000), (328850000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW14 with D14
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW14:2' at (297815000, 33020000) with pad 'D14:2' at (300275000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(297815000, 33020000), (297815000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(297815000, 38990000), (300275000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW11 with D11
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW11:2' at (240665000, 33020000) with pad 'D11:2' at (243125000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(240665000, 33020000), (240665000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(240665000, 38990000), (243125000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW45 with D45
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW45:2' at (324008750, 71120000) with pad 'D45:2' at (326468750, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(324008750, 71120000), (324008750, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(324008750, 77090000), (326468750, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW22 with D22
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW22:2' at (173990000, 52070000) with pad 'D22:2' at (176450000, 60500000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(173990000, 52070000), (173990000, 58040000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(173990000, 58040000), (176450000, 60500000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW36 with D36
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW36:2' at (140652500, 71120000) with pad 'D36:2' at (143112500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(140652500, 71120000), (140652500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(140652500, 77090000), (143112500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW13 with D13
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW13:2' at (278765000, 33020000) with pad 'D13:2' at (281225000, 41450000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(278765000, 33020000), (278765000, 38990000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(278765000, 38990000), (281225000, 41450000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW37 with D37
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at B.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW37:2' at (159702500, 71120000) with pad 'D37:2' at (162162500, 79550000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (B.Cu): [(159702500, 71120000), (159702500, 77090000)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (B.Cu): [(159702500, 77090000), (162162500, 79550000)]
+[board_modifier.py:450]: Track added
+[key_placer.py:457]: Removing dangling tracks

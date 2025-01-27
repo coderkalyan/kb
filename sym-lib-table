@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Regulator_Switching_Extra")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/Regulator_Switching_Extra.kicad_sym")(options "")(descr ""))
   (lib (name "Battery_Management_Extra")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/Battery_Management_Extra.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV71333PDQ")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/TLV71333PDQ.kicad_sym")(options "")(descr ""))
 )
