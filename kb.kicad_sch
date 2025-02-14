@@ -6534,7 +6534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15ed204c-87eb-4d81-bc16-0a1f6d447f81")
-		(property "Reference" "SW76"
+		(property "Reference" "SW74"
 			(at 38.1 180.3399 90)
 			(effects
 				(font
@@ -6588,7 +6588,7 @@
 		(instances
 			(project ""
 				(path "/9cb56eee-d4d8-48bb-94d9-229fa32a5257"
-					(reference "SW76")
+					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -7672,7 +7672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4df4d82b-45eb-463a-b7ba-b880803a7bc1")
-		(property "Reference" "Ce"
+		(property "Reference" "C2"
 			(at 69.85 34.2899 0)
 			(effects
 				(font
@@ -7744,7 +7744,7 @@
 		(instances
 			(project "kb"
 				(path "/9cb56eee-d4d8-48bb-94d9-229fa32a5257"
-					(reference "Ce")
+					(reference "C2")
 					(unit 1)
 				)
 			)

@@ -828,6 +828,363 @@
 				)
 			)
 		)
+		(symbol "PCM_marbastlib-various:ROT_SKYLOONG_HS-Switch"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ROT_SKYLOONG_HS"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-various:ROT_SKYLOONG_HS-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://skyloong.vip/products/abs-hot-swappable-knobs-madule"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SKYLOONG hotswap encoder module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "hotswap encoder ec6 switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ROT_SKYLOONG_HS-Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 2.667)
+					(mid -3.0988 -0.0635)
+					(end -0.381 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -2.032) (xy -1.27 -4.064) (xy 2.54 -4.064) (xy 4.318 -2.032) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ROT_SKYLOONG_HS-Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -1699,6 +2056,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6ce6c41-0644-43a7-9936-7416eab951d1")
+	)
+	(junction
+		(at 353.06 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aef29476-b741-4343-985e-e5bb08182735")
 	)
 	(junction
 		(at 228.6 118.11)
@@ -2892,6 +3255,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 267.97) (xy 63.5 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b723779-dd10-45a2-a865-575866415d8b")
+	)
+	(wire
+		(pts
 			(xy 279.4 105.41) (xy 281.94 105.41)
 		)
 		(stroke
@@ -3069,6 +3442,16 @@
 			(type default)
 		)
 		(uuid "34d85277-5ad3-4136-8fb3-7ebeb6c4ebee")
+	)
+	(wire
+		(pts
+			(xy 353.06 59.69) (xy 360.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375efb56-fa89-4bcd-b450-5b8f5b72033a")
 	)
 	(wire
 		(pts
@@ -5432,6 +5815,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 262.89) (xy 83.82 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29f307a-187d-4b97-8870-b0c0a84d8e70")
+	)
+	(wire
+		(pts
 			(xy 353.06 151.13) (xy 353.06 153.67)
 		)
 		(stroke
@@ -6192,6 +6585,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 265.43) (xy 63.5 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccd0faf-17ec-4314-99a9-4ab704e9762b")
+	)
+	(wire
+		(pts
 			(xy 335.28 105.41) (xy 335.28 107.95)
 		)
 		(stroke
@@ -6552,6 +6955,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 262.89) (xy 63.5 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33b8575-bd27-4408-ac4a-5cf4a293b9b5")
+	)
+	(wire
+		(pts
 			(xy 154.94 82.55) (xy 157.48 82.55)
 		)
 		(stroke
@@ -6824,6 +7237,17 @@
 		)
 		(uuid "16fc1b66-da41-40e0-a281-439d2acd844d")
 	)
+	(text "hack to make pads drill correctly\nnot used electrically"
+		(exclude_from_sim no)
+		(at 353.06 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c016ad0-f91c-4ad3-add6-3dd07b5c3560")
+	)
 	(text "Rotary Encoder"
 		(exclude_from_sim no)
 		(at 29.21 198.12 0)
@@ -6833,6 +7257,106 @@
 			)
 		)
 		(uuid "59cf379e-4de0-4654-9bfb-40667bf93497")
+	)
+	(label "S1"
+		(at 83.82 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03c34500-303c-41e2-a662-d689a28d52bf")
+	)
+	(label "B"
+		(at 59.69 267.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b773223-ea7d-4e3f-9407-4ff22c71c3e3")
+	)
+	(label "B"
+		(at 60.96 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23ad345e-9efd-4445-ad82-b842f9d3ac28")
+	)
+	(label "S1"
+		(at 81.28 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c5b888a-4c98-4cbb-af1b-157efc02972e")
+	)
+	(label "A"
+		(at 60.96 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62c1f50e-46b0-47d6-b1ec-6998be9e4be6")
+	)
+	(label "SW77"
+		(at 71.12 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63770ae1-4f0f-4a54-a575-3d29ca83e30d")
+	)
+	(label "C"
+		(at 60.96 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "721e34fa-5580-424b-8ca4-61cb80a11ef1")
+	)
+	(label "A"
+		(at 59.69 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6df222b-4670-49d0-a467-d60733560040")
+	)
+	(label "SW77"
+		(at 360.68 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf7da49b-8591-49da-92e8-61c5ed8b7c91")
+	)
+	(label "C"
+		(at 59.69 265.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d64339d1-1ae9-4b3f-89e5-8e17918226d2")
 	)
 	(hierarchical_label "ROW0"
 		(shape input)
@@ -11074,6 +11598,80 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-various:ROT_SKYLOONG_HS-Switch")
+		(at 71.12 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "514a66b6-0ba0-429c-a2b8-ebbf6721a389")
+		(property "Reference" "SW78"
+			(at 71.12 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ROT_SKYLOONG_HS"
+			(at 71.12 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:ROT_SKYLOONG_HS-Switch"
+			(at 71.12 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://skyloong.vip/products/abs-hot-swappable-knobs-madule"
+			(at 71.12 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SKYLOONG hotswap encoder module"
+			(at 71.12 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "91cfb4e6-914c-4ec4-ad02-614466b07d36")
+		)
+		(pin "S"
+			(uuid "c6307469-a387-44ef-90e8-831fc6ae4283")
+		)
+		(pin "B"
+			(uuid "6e5f779f-1832-40b9-8f5e-7869a3ee3065")
+		)
+		(pin "A"
+			(uuid "e84ffe76-920b-491d-b505-84ba61edc505")
+		)
+		(instances
+			(project ""
+				(path "/9cb56eee-d4d8-48bb-94d9-229fa32a5257/c8b42f60-25dd-4dff-a294-ad95732b9c88"
+					(reference "SW78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 317.5 88.9 270)
 		(mirror x)
@@ -15213,72 +15811,6 @@
 			(project "kb"
 				(path "/9cb56eee-d4d8-48bb-94d9-229fa32a5257/c8b42f60-25dd-4dff-a294-ad95732b9c88"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a675ac00-31bc-4255-af4c-b7adbc83b95b")
-		(property "Reference" "#PWR012"
-			(at 71.12 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdc93278-0dc3-43dd-836d-e37c39b18fbd")
-		)
-		(instances
-			(project "kb"
-				(path "/9cb56eee-d4d8-48bb-94d9-229fa32a5257/c8b42f60-25dd-4dff-a294-ad95732b9c88"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)

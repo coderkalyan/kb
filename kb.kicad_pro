@@ -59,6 +59,12 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|325830000|1980000|3919b3c7-f94b-41d3-bb2f-e2d6d9aef54e|b30ebd34-201d-4b58-95bf-0fcfe92a2aef",
+        "courtyards_overlap|325830000|1980000|a328ca79-1358-44e2-9a11-cbe6c2dbaa55|3919b3c7-f94b-41d3-bb2f-e2d6d9aef54e",
+        "courtyards_overlap|325830000|1980000|a328ca79-1358-44e2-9a11-cbe6c2dbaa55|b30ebd34-201d-4b58-95bf-0fcfe92a2aef",
+        "holes_co_located|332825000|8975000|87056199-c760-4f27-82fb-b7cd83149bb6|b7d9a0df-a82f-4165-b98d-0fb745fc6e28",
+        "silk_over_copper|326923444|8975733|6fe88f42-395a-447e-b20b-a2126cd49a31|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|331866500|10730357|b7c25be7-b81d-4a80-a347-f881f33082eb|00000000-0000-0000-0000-000000000000",
         "text_thickness|24474010|86375000|d6a93c86-50f2-4f76-9a0f-1dec9cab1820|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
