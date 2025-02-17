@@ -519,10 +519,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "r1-gerbers/",
+      "plot": "dxf",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "kb.step",
       "svg": "",
       "vrml": ""
     },
