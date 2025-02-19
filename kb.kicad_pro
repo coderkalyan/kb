@@ -59,8 +59,8 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|325830000|1980000|3919b3c7-f94b-41d3-bb2f-e2d6d9aef54e|a328ca79-1358-44e2-9a11-cbe6c2dbaa55",
         "courtyards_overlap|325830000|1980000|3919b3c7-f94b-41d3-bb2f-e2d6d9aef54e|b30ebd34-201d-4b58-95bf-0fcfe92a2aef",
-        "courtyards_overlap|325830000|1980000|a328ca79-1358-44e2-9a11-cbe6c2dbaa55|3919b3c7-f94b-41d3-bb2f-e2d6d9aef54e",
         "courtyards_overlap|325830000|1980000|a328ca79-1358-44e2-9a11-cbe6c2dbaa55|b30ebd34-201d-4b58-95bf-0fcfe92a2aef",
         "holes_co_located|332825000|8975000|87056199-c760-4f27-82fb-b7cd83149bb6|b7d9a0df-a82f-4165-b98d-0fb745fc6e28",
         "silk_over_copper|326923444|8975733|6fe88f42-395a-447e-b20b-a2126cd49a31|00000000-0000-0000-0000-000000000000",
@@ -239,7 +239,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|609600|2362200|f86c0b85-9c82-41aa-ab43-e60afb3e5efb|721e34fa-5580-424b-8ca4-61cb80a11ef1|/9cb56eee-d4d8-48bb-94d9-229fa32a5257/c8b42f60-25dd-4dff-a294-ad95732b9c88|/9cb56eee-d4d8-48bb-94d9-229fa32a5257/c8b42f60-25dd-4dff-a294-ad95732b9c88|/9cb56eee-d4d8-48bb-94d9-229fa32a5257/c8b42f60-25dd-4dff-a294-ad95732b9c88"
+    ],
     "meta": {
       "version": 0
     },
@@ -519,7 +521,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "dxf",
+      "plot": "r1-gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "kb.step",
